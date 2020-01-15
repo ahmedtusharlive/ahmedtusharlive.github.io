@@ -1,0 +1,19 @@
+.ext-icons{
+    /* use this class on <svg> */
+    fill: #27E278;
+    width: 38px;
+    height: auto;
+    margin-top: -56px;
+}
+
+.svg-icon{
+    /* use this class on the parent <div> of <svg> */
+    height: 45px;
+}
+
+.svg-box{
+    /* use this class on the parent <div> of .svg-icon */
+}
+.svg-box:hover .ext-icons{
+    fill: white;
+}
