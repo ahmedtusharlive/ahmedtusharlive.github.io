@@ -1,4 +1,15 @@
 /*repeated styles*/
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.one-third{
+    width: 31.5%;
+    background: #f2f2f2;
+    margin: 0px 10px;
+    padding: 0;
+}
 .fr{
     float: right;
 }
@@ -26,6 +37,13 @@ a:hover{
     position: relative;
 }
 /*custom styles*/
+body{
+    background: #f2f2f2;
+}
+hr{
+    padding: 0;
+    border-top: 1px solid #d4d4d4;
+}
 .header-fw{
     background-image: url(../images/bg-grad.jpg);
     background-repeat: repeat;
@@ -93,4 +111,212 @@ a:hover{
 .fw-slider .slideshow{
     height: 750px;
     z-index: 1;
+}
+
+section.about{
+    height: 480px;
+}
+
+
+
+
+h2{
+    font-weight: bold;
+    color: #4e4e4e;
+    margin: 20px 0px;;
+}
+p.body{
+    color: #4e4e4e;
+}
+.details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.details .det-head{
+    width: 100%;
+    background: #4e4e4e;
+}
+.details h1{
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+    margin: 0;
+    font-size: 32px;
+}
+
+.details .det-desc ul{
+    padding-left: 0px;  
+    margin: 0;
+}
+
+.details .det-desc ul li:nth-child(even){
+    list-style-type: none;
+    padding: 20px;
+    background: #f5f5f5;
+    color: #4e4e4e;
+    text-align: center;
+    font-size: 12pt;
+}
+
+.details .det-desc ul li:nth-child(odd){
+    list-style-type: none;
+    padding: 20px;
+    background: #fafafa;
+    color: #4e4e4e;
+    text-align: center;
+    font-size: 12pt;
+}
+.details .det-desc ul li.end-icon{
+    padding: 7px;    
+    height: 40px;
+}
+.details .det-desc ul li.end-icon .circular-square{
+    height: 35px;
+    background: #4e4e4e;
+    width: 45px;
+    margin: auto;
+    margin-top: 0px;
+    border-radius: 8px;
+}
+.details .det-desc ul li video{
+    padding: 0px;    
+    height: 200px;
+}
+
+.industries{
+    margin: 30px 0px;
+    padding-top: 30px;
+    background-image: url(../images/services/bg-services-new.jpg);
+    padding-bottom: 50px;
+}
+.industries h2,p{
+    color: white;
+}
+.ind-desc{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.ind-tabs{
+    height: 200px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    background: white;
+    margin: 10px;
+}
+.ind-icon{
+    width: 25%;
+    height: 80px;
+    margin: 35px 10px;
+}
+.ind-tab-desc{
+    width: 65%;
+    margin-left: 10px;
+    margin-top: 35px;
+}
+.ind-tab-desc h3,p{
+    margin: 0;
+    padding: 0;
+}
+.ind-tab-title{
+    width: 75%;
+}
+.ind-tab-text{
+    color: gray;
+    width: 60%;
+    margin: 0;
+}
+p.ind-tab-text{
+    color: gray;
+    width: 200px;
+    margin: 0;
+    
+}
+
+.achievements{
+    margin: 30px 0;
+    
+}
+.achievements ul{
+    width: 40%;
+    margin: auto;
+    list-style-image: url(../images/list-style-1.png);
+    list-style-position: inside;
+    padding: 0;
+}
+.achievements ul li{
+    color: #4e4e4e;
+    padding-bottom: 10px;
+}
+.buyers{
+    padding: 30px 0px;
+    margin: 30px 0px;
+    background-image: url(../images/partners/partner_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.buyers h2{
+    color: white;
+}
+.buyers-gallery{
+    width: 80%;
+    margin: auto;
+    background-image: url(../images/buyers-home.png);
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+}
+.contact{
+    margin: 30px auto;
+    color: #747474;
+}
+.contact h2 {
+    color: #4e4e4e;
+}
+.contact p {
+    color: #747474;
+}
+.ab-desc{
+    padding: 0 30px;
+}
+.ab-desc a{
+    color: #747474;
+    display: block;
+    padding: 2px;
+}
+.ab-desc a:hover{
+    color: #000;
+}
+.ab-desc h5{
+    font-size: 20px;
+    padding: 0;
+    margin: 10;
+    font-weight: bold;
+    color: #4e4e4e;
+}
+.phone{
+    list-style-image: url(../images/phn.png);
+}
+.ab-desc ul span{
+    position: relative;
+    bottom: 8px;
+    
+}
+.fax{
+    list-style-image: url(../images/fax.png);
+}
+.footer-fw{
+    background-image: url(../images/bg-grad.jpg);
+    background-repeat: repeat;
+    height: 95px;
+    border-top: 5px solid #c42d2f;
+    z-index: 2;
+}
+.copyright{
+    padding-top: 20px;
 }

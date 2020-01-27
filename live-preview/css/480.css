@@ -1,0 +1,33 @@
+/*responsive css br_1(480px) */
+@media only screen and (max-width :480px){
+    .header-fw{
+        background-image: url(../images/bg-grad.jpg);
+        background-repeat: repeat;
+        height: 3em;
+        width: 100%;
+        overflow: hidden;
+    }
+    .nav-wr{
+        width: 100%;
+    }
+    .title-logo img{
+        margin-top: 10px;
+        height: 20px;
+        overflow: hidden;
+        float: left;
+    }
+    .nav-items{
+        float: right;
+        display: inline;
+        width: 60%;
+    }
+    .nav-items li{
+        display: inline;
+    }
+    .nav-items li a{
+        font-size: 5px;
+        color: red;
+    }
+    .super{
+        display: inline;
+    }
